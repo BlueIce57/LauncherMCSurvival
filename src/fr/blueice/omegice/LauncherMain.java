@@ -19,10 +19,10 @@ import javafx.stage.StageStyle;
 
 public class LauncherMain extends AlternativeBase {
 	public static GameFolder gameFolder = new GameFolder("OmegiceLauncher");
-	private GameLinks gameLinks = new GameLinks("https://omegicesurvival.000webhostapp.com/launcher/", "1.19.2-forge-43.1.1.json");
+	private GameLinks gameLinks = new GameLinks("*****", "1.19.2-forge-43.1.1.json");
 	private LauncherPreferences launcherPref = new LauncherPreferences("Omegice Launcher V1.0A", 880, 520, Mover.MOVE);
 	private GameEngine gameEngine = new GameEngine(gameFolder, gameLinks, launcherPref);
-	private GameConnect gameConnect = new GameConnect("omegice.webhop.me", "25565");
+	private GameConnect gameConnect = new GameConnect("*****", "25565");
 
 	public void start(Stage primaryStage) throws Exception {
 		Scene scene = new Scene(this.createContent());
